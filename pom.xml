@@ -26,6 +26,7 @@
 					<source>${maven.compiler.source}</source>
 					<target>${maven.compiler.target}</target>
 				</configuration>
+				
 			</plugin>
 
 
@@ -40,7 +41,9 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>${testNGXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
-
+					<systemPropertyVariables>
+						<allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+					</systemPropertyVariables>
 				</configuration>
 
 			</plugin>
@@ -94,6 +97,15 @@
 
 
 		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+
+
+		<!-- Allure Report dependency -->
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.22.0</version>
+		</dependency>
 
 
 	</dependencies>
