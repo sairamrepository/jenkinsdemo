@@ -1,0 +1,13 @@
+com\javalaya\maven_pageobjectmodel_snapdeal\testrunner\Snapdeal_Testrunner4.class
+com\javalaya\maven_pageobjectmodel_snapdeal\utility\DriverUtility.class
+com\javalaya\maven_pageobjectmodel_snapdeal\testrunner\Snapdeal_Testrunner2.class
+com\javalaya\maven_pageobjectmodel_snapdeal\pageobject\ShopOnlinePage.class
+com\javalaya\maven_pageobjectmodel_snapdeal\testrunner\Snapdeal_Testrunner1.class
+com\javalaya\maven_pageobjectmodel_snapdeal\utility\BrowserFactory.class
+com\javalaya\maven_pageobjectmodel_snapdeal\testrunner\Snapdeal_Testrunner3.class
+com\javalaya\maven_pageobjectmodel_snapdeal\utility\CommonUtility.class
+com\javalaya\maven_pageobjectmodel_snapdeal\utility\ExcelLearning.class
+com\javalaya\maven_pageobjectmodel_snapdeal\testrunner\Snapdeal_Testrunner.class
+com\javalaya\maven_pageobjectmodel_snapdeal\utility\ExcelUtility.class
+com\javalaya\maven_pageobjectmodel_snapdeal\pageobject\BuyProductPage.class
+com\javalaya\maven_pageobjectmodel_snapdeal\pageobject\ProductPage.class
